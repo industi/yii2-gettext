@@ -1,0 +1,21 @@
+{
+    "name": "industi/yii2-gettext",
+    "description": "Extended Yii2 Gettext",
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.6"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Krzysztof Kurkowski",
+            "email": "krzysztof.kurkowski@industi.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "industi\\yii2\\gettext\\": ""
+        }
+    }
+}
