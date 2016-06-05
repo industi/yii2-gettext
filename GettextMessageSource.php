@@ -16,12 +16,10 @@ class GettextMessageSource extends GettextMessageSourceBase {
    */
   public $scope = NULL;
 
-
   /**
    * @var array
    */
   protected $scopeCache = array();
-
 
   /**
    * @inheritdoc
@@ -34,8 +32,7 @@ class GettextMessageSource extends GettextMessageSourceBase {
           throw new \Exception("Invalid translation category $category, not in scope: " . $this->scope );
         }
         $this->scopeCache[$category] = substr($category, strlen($this->scope));
-      }
-      else {
+      } else {
         $this->scopeCache[$category] = $category;
       }
     }
